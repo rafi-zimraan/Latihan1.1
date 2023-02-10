@@ -19,3 +19,7 @@ let m = [];
 m = ['true', 'false', '12', '89', 'boolean', 'mobil', 'kaya', 'pondok'];
 m.splice(2, 2);
 console.log('splice', m);
+let number = ['123', '3435', '234', '123', '456', '466',];
+let w = ['aku', 'punya', 'mobil', 'toyota', 'supra', 'yang', 'harganya', 'bisa ', 'beli ', 'otak', 'manusia'];
+let hasil = w.concat(number);
+console.log('concat', hasil);

@@ -22,8 +22,15 @@ b =['mobil','kuda','23','true'];
 b.unshift('mereka');
 console.log('unshift',b);
 
-// SPLICE
+// SPLICE (MENGHILANGKAN 2 SEKALIGUS NILAI)
 let m : any =[];
 m =['true','false','12','89','boolean','mobil','kaya','pondok'];
 m.splice(2,2);
 console.log('splice',m);
+
+// CONCAT (MENGABUNGKAN SEMUA TIPE DATA)
+let number : any = ['123','3435','234','123','456','466',];
+let w : any = ['aku','punya','mobil','toyota','supra','yang','harganya','bisa ','beli ','otak','manusia'];
+let hasil = w.concat(number);
+console.log('concat',hasil);
+
